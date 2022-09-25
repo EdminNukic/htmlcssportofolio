@@ -1,51 +1,146 @@
 body {
-    background-color: violet;
-    margin: 0;
-    padding: 0;
-    font-family: serif;
-    font-size: 15px;
-  }
+  background-color: #300742;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  font-size: 15px;
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  background-color: #3a0a4f;
+  padding: 1em;
+}
+
+section {
+
+
+  display: inline-block;
+
+
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+aside {
+  float: right;
+}
+
+.image {
+  border: 5px;
+  border-color: #713299;
+  border-style: ridge;
+  border-radius: 1em;
+
+
+}
+
+#container {
+  width: 80vw;
+  max-width: 1300px;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: lightgrey;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 5%;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  border: 0.5em;
+  border-style: ridge;
+  border-color: #713299;
+  border-radius: 10px;
+  background-color: #8a4daf;
+  max-width: 80%;
+}
+
+nav a {
+  font-size: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: wheat;
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+}
+
+ul2 {
+  color: black;
+}
+
+#gaminglijst {
+  border: 0.5em;
+  border-style: ridge;
+  border-color: #713299;
+  border-radius: 10px;
+  background-color: #8a4daf;
+  max-width: 50%;
+  margin-top: 2em;
+  float: left;
+}
+
+#boekenlijst{
+  border: 0.5em;
+  border-style: ridge;
+  border-color: #05055b;
+  border-radius: 10px;
+  background-color: #2d36e4;
+  margin-top: 2em;
+  float: right;
+  width: 50%;
+}
+
+table {
+  font-size: 18px;
+  padding: 3px;
+ 
+}
+
+td {
+  width: 50%;
+  margin-left: 3px;
   
-  #container{
-    width: 80vw;
-    max-width: 1200px;
-    min-width: 300px;
-    margin: 0 auto;
-  }
-  
-  .text-content{
-    font-size: 1.2em;
-  }
-  
-  
-  a:hover {
-    color: lightblue;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: lightgrey;
-  }
-  
-  p {
-    color: white;
-  }
-  
-  nav a {
-    font-size: 15px;
-  }
-  
-  ul2 {
-    color: white;
-  }
-  
-  footer {
-    margin-top: 15px
-    
-  }
-  
+}
+
+
+.div1{
+  float: left;
+  width: 50%;
+}
+
+.div2{
+  float: right;
+  width: 50%;
+  margin-top: 3em;
+}
+
+iframe{
+  border: 5px;
+  border-radius: 10px;
+}
+
+footer {
+ position: fixed;
+}
+
