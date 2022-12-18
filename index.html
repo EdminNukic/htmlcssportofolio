@@ -12,31 +12,35 @@
 <body>
   <div id="container">
 
-    <header>
-      <nav>
-        <a href="#mijnhobbys">Mijn Hobby's</a>
-        <a href="#mijnwerk">Mijn werk</a>
-        <a href="#gaminglijst">Gaming Tier List</a>
-        <a href="#boekenlijst">Boekenlijst</a>
-      </nav>
-    </header>
-
     <main>
-      <h1> Welkom, mijn naam is Dino </h1>
 
-      <section id="mijnhobbys">
-        <aside>
-          <img src="img/cat-giving-massage-gif.gif" class="image">
-        </aside>
+      <section id="header-items">
+        <header>
+          <figure>
+            <img src="../img/cat-giving-massage-gif.gif">
+          </figure>
 
+          <h1>Welkom, mijn naam is Dino</h1>
+        </header>
 
+        <nav>
+          <a href="#mijnleven">Mijn leven</a>
+          <a href="#mijnwerk">Mijn werk</a>
+          <a href="#gaming-lijst">Gaming Tier List</a>
+          <a href="#boeken-lijst">Boekenlijst</a>
+        </nav>
+      </section>
+
+      <section id="mijnleven">
+        <h1>Mijn leven</h1>
         <p>
           Ik ben 22 jaar oud en studeer aan de Hogeschool Rotterdam.
           Ik woon nu een jaar in Capelle a.d. IJssel en het bevalt goed.
           Verder heb ik hobby's enzo, doe ik ook dingen en ik werk bij de Praxis. Daarover later meer.<br>
           Ik doe nu helaas het eerste jaar van mijn studie overnieuw. Maar was dat niet gebeurd dan had ik nooit deze
           prachtige site kunnen maken, dus daar zijn we blij mee.<br>
-          De afbeelding hiernaast is verder ongerelateerd maar het is aan me gaan groeien dus kan ik het niet weglaten.
+          De afbeelding hierboven is verder ongerelateerd maar het is aan me gaan groeien dus kan ik het niet
+          weglaten.
           Voor de rest houd ik van gamen, lezen, muziek maken en mezelf bezig houden op andere manieren, ik kan voor
           veel dingen wel interesse opdoen.
         </p>
@@ -44,79 +48,106 @@
       </section>
 
       <section id="mijnwerk">
-        <div class="div1">
-          <h2>
-            Mijn werk
-          </h2>
-          <p>
-            Ik werk sinds kort bij de Praxis. Super interessant natuurlijk.<br>
-            Het is op zich een prima baantje dat goed verdiend, en zulk zwaar fysiek werk is het nou ook niet.
-          </p>
-        </div>
-        <div class="div2">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2458.680814034416!2d4.5797554157635005!3d51.958011779711626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd614553f563%3A0x9f2b97debbb5d9ed!2sPraxis!5e0!3m2!1snl!2snl!4v1664133786411!5m2!1snl!2snl"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <h2>Mijn werk</h2>
+        <p>
+          Ik werk sinds kort bij de Praxis. Super interessant natuurlijk.<br>
+          Het is op zich een prima baantje dat goed verdiend, en zulk zwaar fysiek werk is het nou ook niet.
+        </p>
+        <section class="iframe">
+          <iframe width="350" height="350px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2458.6808140344156!2d4.579755415763501!3d51.95801177971164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd614553f563%3A0x9f2b97debbb5d9ed!2sPraxis!5e0!3m2!1snl!2snl!4v1665343024838!5m2!1snl!2snl"
+            width="800" height="600" style="border: 1px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </section>
 
-      </section>
+        <section id="gaming-lijst">
+          <h3>Gaming Tier List</h3>
+          <p>Dit is een lijst aan random games die ik ooit gespeeld heb. De ene beter dan de ander.</p>
 
-      <section id="gaminglijst">
-        <h3>
-          De games tier List
-        </h3>
-        <table>
-          <tr>
-            <td>The Elder Scrolls V: Skyrim</td>
-            <td>12/10</td>
-          </tr>
-          <tr>
-            <td>League of Legends</td>
-            <td>-∞/10</td>
-          </tr>
-          <tr>
-            <td>Fallout: New Vegas</td>
-            <td>100.000.000/10</td>
-          </tr>
-          <tr>
-            <td>Fallout: 4</td>
-            <td>6.5/10</td>
-          </tr>
-          <tr>
-            <td>The Elder Scrolls IV: Oblivion</td>
-            <td>100.000.000.000.000.000/10</td>
-          </tr>
-          <tr>
-            <td>Dishonored</td>
-            <td>10/10</td>
-          </tr>
-        </table>
+          <table>
+            <tr>
+              <td>The Elder Scrolls V: Skyrim</td>
+              <td>12/10</td>
+            </tr>
+            <tr>
+              <td>League of Legends</td>
+              <td>-∞/10</td>
+            </tr>
+            <tr>
+              <td>Fallout: New Vegas</td>
+              <td>100.000.000/10</td>
+            </tr>
+            <tr>
+              <td>Fallout: 4</td>
+              <td>6.5/10</td>
+            </tr>
+            <tr>
+              <td>The Elder Scrolls IV: Oblivion</td>
+              <td>100.000.000.000.000.000/10</td>
+            </tr>
+            <tr>
+              <td>Dishonored</td>
+              <td>10/10</td>
+            </tr>
+          </table>
+        </section>
 
-      </section>
+        <section id="boeken-lijst">
+          <h4>Boekenlijst</h4>
+          <p>Lijst aan boeken die ik heb gelezen, met scores!</p>
+          <table>
+            <tr>
+              <td>1984</td>
+              <td>George Orwell</td>
+              <td>10/10</td>
+            </tr>
+            <tr>
+              <td>Brave New World</td>
+              <td>Aldous Huxley</td>
+              <td>10/10</td>
+            </tr>
+            <tr>
+              <td>The Hermetica</td>
+              <td>Timothy Freke, Peter Gandy</td>
+              <td>1.000.000/10</td>
+            </tr>
+            <tr>
+              <td>Meditations</td>
+              <td>Marcus Aurelius</td>
+              <td>7/10</td>
+            </tr>
+            <tr>
+              <td>Dragons of Eden</td>
+              <td>Carl Sagan</td>
+              <td>8/10</td>
+            </tr>
+            <tr>
+              <td>Prince</td>
+              <td>Niccolò Machiavelli</td>
+              <td>to be rated</td>
+            </tr>
+            <tr>
+              <td>Das Kapital</td>
+              <td>Karl Marx</td>
+              <td>4/10</td>
+            </tr>
+            <tr>
+              <td>The Republic</td>
+              <td>Plato</td>
+              <td>to be rated</td>
+            </tr>
+          </table>
+        </section>
+        
+      <footer>
+        <span>&copy; Dino 2022</span>
+        <a href="https://www.instagram.com/dinonukic"> Bekijk mijn niet foto's op instagram!</a>
 
-      <section id="boekenlijst">
-        <h4>
-          Boekenlijst
-        </h4>
-        <table>
-          <tr>
-            <td>1984</td>
-            <td>George Orwell</td>
-          </tr>
-          <tr>
-            <td>Brave New World</td>
-            <td>Aldous Huxley</td>
-          </tr>
-        </table>
-      </section>
+      </footer>
 
     </main>
 
-    <footer>
-      <span>&copy; Dino 2022</span>
-      <a href="https://www.instagram.com/dinonukic"> Bekijk mijn niet foto's op instagram!</a>
-    </footer>
   </div>
 
 </body>
